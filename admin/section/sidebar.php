@@ -24,7 +24,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="admin.php" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Admin
@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="nav-item has-treeview">
-                    <a href="<?php  ?>" class="nav-link">
+                    <a href="users.php" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Users
@@ -40,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="orders.php" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             orders
@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="category.php" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Category
@@ -56,6 +56,22 @@
                     </a>
                 </li>
                 <li class="nav-item has-treeview">
+                    <a href="brand.php" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Brand
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="products.php" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Product
+                        </p>
+                    </a>
+                </li>
+                <!-- <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
@@ -108,7 +124,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
