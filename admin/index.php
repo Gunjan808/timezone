@@ -28,7 +28,7 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Enter your email and password</p>
 
         <form action="login.php" method="post">
           <div class="input-group mb-3">
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" name="password"  class="form-control" placeholder="Password">
+            <input type="password" name="password" class="form-control" placeholder="Password">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-lock"></span>
@@ -70,7 +70,7 @@
           <a href="forgot-password.html">I forgot my password</a>
         </p>
         <p class="mb-0">
-          <a href="register.html" class="text-center">Register a new membership</a>
+          <!-- <a href="register.html" class="text-center">Register a new membership</a> -->
         </p>
       </div>
       <!-- /.login-card-body -->

@@ -25,6 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         header("location:orders.php");
     } else {
-        $error = "Your Login Name or Password is invalid";
+        echo "
+        <script>
+        window.alert('Your Login Name or Password is invalid');
+        </script>";
+        header("location:index.php");
     }
 }
