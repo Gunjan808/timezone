@@ -3,7 +3,7 @@ include("connect.php");
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   
+
 
     // username and password sent from form 
 
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["email"] = $myusername;
         $_SESSION["password"] = $mypassword;
 
-        header("location: users.php");
+        header("location:orders.php");
     } else {
         $error = "Your Login Name or Password is invalid";
     }

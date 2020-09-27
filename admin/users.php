@@ -47,6 +47,7 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                         <th>Name/email/mobile</th>
                                         <th>Address</th>
                                         <th>image</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
 
@@ -62,6 +63,11 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                             <td><?php echo $val['fname'] . '' . $val['lname'] . '<br>' . $val['email'] . '<br><b>' . $val['phno'] . '</b>' ?></td>
                                             <td><?php echo $val['address'] ?></td>
                                             <td><img src="<?php echo $val['image']  ?>" style="height: 200px; width:200px"></td>
+                                            <td>
+                                                <a href="users-edit.php?user_id=<?php echo $val['id']; ?>"><i class="fa fa-edit"></i></a>
+                                                <a href="users-delete.php?user_id=<?php echo $val['id']; ?>"><i class="fa fa-trash" style="margin-left: 5px;"></i></a>
+                                            </td>
+
 
 
                                         </tr>

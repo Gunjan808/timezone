@@ -25,7 +25,7 @@
                with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview">
                     <a href="admin.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
                             Admin
                         </p>
@@ -33,7 +33,7 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="users.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
                             Users
                         </p>
@@ -41,15 +41,15 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="orders.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
-                            orders
+                            Orders
                         </p>
                     </a>
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="category.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
                             Category
                         </p>
@@ -57,7 +57,7 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="brand.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
                             Brand
                         </p>
@@ -65,9 +65,17 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="products.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-circle"></i>
                         <p>
                             Product
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="products.php" class="nav-link">
+                        <i class="nav-icon fas fa-circle"></i>
+                        <p>
+                            Report
                         </p>
                     </a>
                 </li>

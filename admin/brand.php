@@ -50,7 +50,8 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                     <tr>
                                         <th style="width: 10px">#</th>
                                         <th>Tilte</th>
-                                       
+                                        <th>Action</th>
+
                                     </tr>
                                 </thead>
 
@@ -64,8 +65,10 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
 
                                             <td><?php echo $ginti ?></td>
                                             <td><?php echo $val['brand'] ?></td>
-                                          
-
+                                            <td>
+                                                <a href="brand-edit.php?brand_id=<?php echo $val['id']; ?>"><i class="fa fa-edit"></i></a>
+                                                <a href="brand-delete.php?brand_id=<?php echo $val['id']; ?>"><i class="fa fa-trash" style="margin-left: 5px;"></i></a>
+                                            </td>
                                         </tr>
                                     <?php
                                         $ginti++;

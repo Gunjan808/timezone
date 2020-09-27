@@ -27,7 +27,7 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <a class="btn btn-primary" href="category-add.php">Add New Category</a>
+                        <a class="btn btn-primary" href="category-edit-action.php">Add New Category</a>
                     </ol>
                 </div>
             </div>
@@ -52,6 +52,7 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                         <th>Tilte</th>
                                         <th>Description</th>
                                         <th>Image</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
 
@@ -67,6 +68,11 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                             <td><?php echo $val['title'] ?></td>
                                             <td><?php echo $val['description'] ?></td>
                                             <td><img src="<?php echo $val['image']  ?>" style="height: 200px; width:200px"></td>
+                                            <td>
+                                                <a href="category-edit.php?cat_id=<?php echo $val['id']; ?>"><i class="fa fa-edit"></i></a>
+                                                <a href="category-delete.php?cat_id=<?php echo $val['id']; ?>"><i class="fa fa-trash" style="margin-left: 5px;"></i></a>
+
+                                            </td>
 
 
                                         </tr>

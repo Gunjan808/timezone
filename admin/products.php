@@ -55,6 +55,7 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                         <th>Description</th>
                                         <th>Price</th>
                                         <th>Image</th>
+                                        <th>Action</th>
 
                                     </tr>
                                 </thead>
@@ -73,7 +74,11 @@ $row = mysqli_fetch_all($result, MYSQLI_BOTH);
                                             <td><?php echo $val['brand'] ?></td>
                                             <td><?php echo $val[4] ?></td>
                                             <td><?php echo $val['price'] ?></td>
-                                            <td><img src ="<?php echo $val[6]  ?>" style="height: 200px; width:200px"></td>
+                                            <td><img src="<?php echo $val[6]  ?>" style="height: 200px; width:200px"></td>
+                                            <td>
+                                                <a href="product-edit.php?pro_id=<?php echo $val[0]; ?>"><i class="fa fa-edit"></i></a>
+                                                <a href="product-delete.php?pro_id=<?php echo $val[0]; ?>"><i class="fa fa-trash" style="margin-left: 5px;"></i></a>
+                                            </td>
 
 
                                         </tr>
